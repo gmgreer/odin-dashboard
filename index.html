@@ -4,10 +4,142 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Odin Dashboard</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <header class="header">
+      <div class="search-bar">
+        <label for="search"><img src="/Images/magnify.png"></label>
+        <input type="search" class="search" id="search" name="search">
+      </div>
+      <div class="profile">
+        <ul role="list">
+          <li>B</li>
+          <li>IC</li>
+          <li>Garrett Greer</li>
+        </ul>
+      </div>
+      <div class="welcome">
+        <p>Hi there,</p>
+        <p id="welcome-name">Garrett Greer</p>
+      </div>
+      <div class="share-buttons">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </header>
+    <nav class="side-nav">
+      <div class="logo">
+        <h1><img id="logo" src="/Images/vector-square.png"> Dashboard</h1>
+      </div>
+      <div class="links">
+        <ul role="list">
+          <li class="link"><img src="Images/home.png"> Home</li>
+          <li class="link"><img src="Images/face-man-profile.png"> Profile</li>
+          <li class="link"><img src="Images/message-settings-outline.png"> Messages</li>
+          <li class="link"><img src="Images/history.png"> History</li>
+          <li class="link"><img src="Images/file-tree.png"> Tasks</li>
+          <li class="link"><img src="Images/google-circles-communities.png"> Communities</li>
+        </ul>
+      </div>
+      <div class="links2">
+        <ul role="list">
+          <li class="link"><img src="Images/cog-outline.png"> Settings</li>
+          <li class="link"><img src="Images/face-agent.png"> Support</li>
+          <li class="link"><img src="Images/account.png"> Privacy</li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="projects">
+        <div class="project">
+          <h3>Project</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, distinctio quas aspernatur eum eaque rerum quo exercitationem vitae et laborum temporibus amet voluptatibus, soluta reiciendis repellendus nisi autem quos nobis.</p>
+          <ul role="list">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>Project</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, unde. Numquam laboriosam rerum vel aspernatur nisi, molestiae ducimus, sint velit, necessitatibus aut obcaecati quas? Magnam dolorum explicabo veniam velit delectus.</p>
+          <ul role="list">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>Project</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias maxime nemo, architecto non quasi eveniet beatae nam perferendis itaque doloremque eos excepturi neque ex necessitatibus obcaecati, veritatis consequatur! Quidem, perferendis.</p>
+          <ul role="list">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>Project</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt accusamus non unde consequatur, nisi aliquid id vitae perspiciatis esse ex! Enim dignissimos labore tempora magnam. Quae odit voluptas nihil delectus!</p>
+          <ul role="list">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>Project</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quia quasi. Eum aspernatur aut suscipit quibusdam voluptatibus magni ab iste. Dolore vero dolorem perferendis dignissimos voluptatem, deserunt aut a possimus!</p>
+          <ul role="list">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>Project</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero quaerat similique ducimus, numquam eveniet ad praesentium velit quas repudiandae sed culpa fugit laborum delectus, ipsa enim. Qui, voluptate enim.</p>
+          <ul role="list">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+          </ul>
+        </div>
+      </div>
+      <div class="announcements">
+        <h2>Announcements</h2>
+        <div class="announcement">
+          <h3>Announcement</h3>
+          <p>Some silly amount of text just to show that some text can be some text and some text is also some text in a sort of texty sorty of way.</p>
+        </div>
+        <div class="announcement">
+          <h3>Announcement</h3>
+          <p>Some silly amount of text just to show that some text can be some text and some text is also some text in a sort of texty sorty of way.</p>
+        </div>
+        <div class="announcement">
+          <h3>Announcement</h3>
+          <p>Some silly amount of text just to show that some text can be some text and some text is also some text in a sort of texty sorty of way.</p>
+        </div>
+      </div>
+      <div class="trending">
+        <h2>Trending</h2>
+        <div class="trend">
+          <p>Some small text</p>
+        </div>
+        <div class="trend">
+          <p>Some small text</p>
+        </div>
+        <div class="trend">
+          <p>Some small text</p>
+        </div>
+        <div class="trend">
+          <p>Some small text</p>
+        </div>
+      </div>
+    </main>
+    <script src="/main.js"></script>
   </body>
 </html>
